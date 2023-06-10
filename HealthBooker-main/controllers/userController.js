@@ -30,10 +30,7 @@ const login = async (req, res) => {
     if (!emailPresent) {
       return res.status(400).send("Incorrect credentials");
     }
-    const verifyPass = await bcrypt.compare(
-      req.body.password,
-      emailPresent.password
-    );
+    const verifyPass = await bcrypt.compare(req.body.password, emailPresent.password);
     if (!verifyPass) {
       return res.status(400).send("Incorrect credentials");
     }
@@ -44,11 +41,17 @@ const login = async (req, res) => {
         expiresIn: "2 days",
       }
     );
+    res.cookie("token", token, {
+      expires: new Date(Date.now() + 2 * 24 * 60 * 60 * 1000), // 2 days expiration
+      httpOnly: true,
+    });
     return res.status(201).send({ msg: "User logged in successfully", token });
   } catch (error) {
+    console.log(error);
     res.status(500).send("Unable to login user");
   }
 };
+
 
 const register = async (req, res) => {
   try {
