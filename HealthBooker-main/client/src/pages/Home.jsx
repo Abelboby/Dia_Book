@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import HomeCircles from "../components/HomeCircles";
+import ChatBox from "../components/Chatbox";
 
 const Home = () => {
   return (

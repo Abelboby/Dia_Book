@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../images/aboutimg.jpg";
 
+
 const AboutUs = () => {
   return (
     <>
@@ -15,13 +16,7 @@ const AboutUs = () => {
           </div>
           <div className="hero-content">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam tenetur doloremque molestias repellat minus asperiores
-              in aperiam dolor, quaerat praesentium. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Voluptatibus, repudiandae! Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Provident
-              quibusdam doloremque ex? Officia atque ab dolore? Tempore totam
-              non ea!
+            <b>Welcome to DiaBook, where we've reimagined the way you book dialysis services.</b> <br/>Our innovative platform simplifies the entire process, ensuring accessible and reliable care at your fingertips.<br/> Say goodbye to time-consuming calls and paperwork.<br/> With just a few clicks, you can effortlessly search, compare, and secure your dialysis appointments.
             </p>
           </div>
         </div>

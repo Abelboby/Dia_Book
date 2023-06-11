@@ -20,7 +20,7 @@ const HomeCircles = () => {
           )}
         </CountUp>
         <span className="circle-name">
-          Satisfied
+          Verified
           <br />
           Patients
         </span>
@@ -42,7 +42,7 @@ const HomeCircles = () => {
         <span className="circle-name">
           Verified
           <br />
-          Doctors
+          Hospitals
         </span>
       </div>
       <div className="circle">
@@ -60,7 +60,7 @@ const HomeCircles = () => {
           )}
         </CountUp>
         <span className="circle-name">
-          Specialist
+          Specialised
           <br />
           Doctors
         </span>

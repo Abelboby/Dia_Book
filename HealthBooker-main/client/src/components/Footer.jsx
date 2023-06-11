@@ -16,10 +16,10 @@ const Footer = () => {
                 <NavLink to={"/"}>Home</NavLink>
               </li>
               <li>
-                <NavLink to={"/doctors"}>Doctors</NavLink>
+                <NavLink to={"/doctors"}>Slot Booking</NavLink>
               </li>
               <li>
-                <NavLink to={"/appointments"}>Appointments</NavLink>
+                <NavLink to={"/appointments"}>Bookings</NavLink>
               </li>
               <li>
                 <NavLink to={"/notifications"}>Notifications</NavLink>
@@ -64,9 +64,16 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          <div className="contact">
+            <h3>Contact Information</h3>
+            <ul>
+              <li>Phone: +1 123-456-7890</li>
+              <li>Email: diabook@hotmail.com</li>              
+            </ul>
+          </div>
         </div>
         <div className="footer-bottom">
-          Made by Avinash © {new Date().getFullYear()}
+          Team Abhi © {new Date().getFullYear()}
         </div>
       </footer>
     </>

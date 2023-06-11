@@ -1,9 +1,9 @@
-# HealthBooker🧑‍⚕️
+# Diabook🧑‍⚕️
 
 <h3>Description :</h3> 
-This is a webapp where you can book an appointment with a doctor.
+This is a webapp where you can book a slot for a dialysis with a hospital.
 
-👉[Click here](https://healthbooker.onrender.com/) to check out the app.
+👉[Click here]() to check out the app.
 <br/>
 
 ### 📃Features :
